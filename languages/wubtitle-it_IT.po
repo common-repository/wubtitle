@@ -1,0 +1,1856 @@
+# Copyright (C) 2020 CTMobi
+# This file is distributed under the same license as the Wubtitle plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wubtitle 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/Wubtitle-"
+"Wordpress-Plugin\n"
+"POT-Creation-Date: 2021-01-25T09:25:06+01:00\n"
+"PO-Revision-Date: 2021-01-25 09:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: wubtitle\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: includes/Dashboard/Settings.php:47
+msgid "Wubtitle"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.wubtitle.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Automatically generates subtitle for your videos"
+msgstr ""
+
+#. Author of the plugin
+msgid "CTMobi"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.ctmobi.it"
+msgstr ""
+
+#: includes/Api/ApiCancelSubscription.php:34
+msgid "No Nonce"
+msgstr ""
+
+#: includes/Api/ApiCancelSubscription.php:36
+msgid "No Cancel"
+msgstr ""
+
+#: includes/Api/ApiCancelSubscription.php:38
+msgid "Invalid"
+msgstr ""
+
+#: includes/Api/ApiCancelSubscription.php:58
+msgid "Deleted successfully"
+msgstr "Abbonamento cancellato"
+
+#: includes/Api/ApiCancelSubscription.php:59
+msgid "Bad Request. Please try again in a few minutes"
+msgstr "Richiesta non valida. Riprova di nuovo tra qualche minuto"
+
+#: includes/Api/ApiCancelSubscription.php:60
+msgid "Unauthorized"
+msgstr "Non autorizzato"
+
+#: includes/Api/ApiCancelSubscription.php:61
+msgid "Forbidden"
+msgstr ""
+
+#: includes/Api/ApiCancelSubscription.php:62
+msgid "Not Found"
+msgstr "Non trovato"
+
+#: includes/Api/ApiCancelSubscription.php:63
+msgid "Internal server error"
+msgstr "Impossibile contattare il server"
+
+#: includes/Api/ApiCancelSubscription.php:64
+msgid "Bad gateway"
+msgstr ""
+
+#: includes/Api/ApiGetTranscript.php:38 includes/Api/ApiGetTranscript.php:82
+#: includes/Api/ApiGetTranscript.php:112 includes/Api/ApiPricingPlan.php:121
+#: includes/Core/Sources/Vimeo.php:88 includes/Core/Sources/Vimeo.php:89
+#: includes/Core/Sources/YouTube.php:133 includes/Core/Sources/YouTube.php:134
+msgid ""
+"An error occurred while creating the transcriptions. Please try again in a "
+"few minutes"
+msgstr ""
+"Si è verificato un errore durante la creazione dei sottotitoli. Riprova di "
+"nuovo tra qualche minuto"
+
+#: includes/Api/ApiGetTranscript.php:59 includes/Api/ApiGetTranscript.php:96
+msgid "Url not a valid youtube or vimeo url"
+msgstr "Url youtube o vimeo non valida"
+
+#: includes/Api/ApiGetTranscript.php:129
+msgid ""
+"Error: this video doesn't have subtitles yet. It is necessary to generate "
+"them to obtain the transcription"
+msgstr ""
+"Errore: questo video non ha ancora i sottititoli. E' necessario generarli "
+"per ottenere la trascrizione"
+
+#: includes/Api/ApiPricingPlan.php:42 includes/Api/ApiPricingPlan.php:99
+#: includes/Api/ApiPricingPlan.php:172 includes/Api/ApiPricingPlan.php:246
+#: includes/Api/ApiPricingPlan.php:257 includes/Api/ApiPricingPlan.php:310
+#: includes/Api/ApiPricingPlan.php:329 includes/Dashboard/CancelPage.php:33
+#: includes/Dashboard/PaymentTemplate.php:52
+#: includes/Dashboard/PaymentTemplate.php:104
+#: includes/Dashboard/PaymentTemplate.php:138
+#: includes/Dashboard/PaymentTemplate.php:183
+#: includes/Dashboard/PaymentTemplate.php:232
+#: includes/Utils/InvoiceHelper.php:35 includes/Utils/InvoiceHelper.php:95
+#: includes/Utils/InvoiceHelper.php:264
+msgid "An error occurred. Please try again in a few minutes."
+msgstr "Si è verificato un errore. Riprova di nuovo tra qualche minuto."
+
+#: includes/Api/ApiPricingPlan.php:53 includes/Api/ApiPricingPlan.php:105
+#: includes/Api/ApiRequest.php:93
+msgid "Unable to create subtitles. The product license key is missing."
+msgstr "Impossibile creare i sottotitoli. La  licenza del prodotto è assente."
+
+#: includes/Api/ApiPricingPlan.php:70 includes/Api/ApiPricingPlan.php:71
+#: includes/Api/ApiPricingPlan.php:120 includes/Api/ApiPricingPlan.php:197
+#: includes/Api/ApiPricingPlan.php:198 includes/Api/ApiPricingPlan.php:285
+#: includes/Api/ApiPricingPlan.php:286 includes/Api/ApiPricingPlan.php:374
+#: includes/Api/ApiPricingPlan.php:375 includes/Core/Sources/Vimeo.php:153
+#: includes/Core/Sources/Vimeo.php:154 includes/Utils/InvoiceHelper.php:74
+#: includes/Utils/InvoiceHelper.php:75 includes/Utils/InvoiceHelper.php:123
+#: includes/Utils/InvoiceHelper.php:295 includes/Utils/InvoiceHelper.php:296
+msgid "An error occurred. Please try again in a few minutes"
+msgstr "Si è verificato un errore.  Riprova di nuovo tra qualche minuto"
+
+#: includes/Api/ApiPricingPlan.php:72 includes/Api/ApiPricingPlan.php:122
+#: includes/Api/ApiPricingPlan.php:199 includes/Api/ApiPricingPlan.php:287
+#: includes/Api/ApiPricingPlan.php:376 includes/Core/Sources/Vimeo.php:155
+#: includes/Utils/InvoiceHelper.php:76 includes/Utils/InvoiceHelper.php:297
+msgid "Access denied"
+msgstr "Accesso negato"
+
+#: includes/Api/ApiPricingPlan.php:73 includes/Api/ApiPricingPlan.php:74
+#: includes/Api/ApiPricingPlan.php:123 includes/Api/ApiPricingPlan.php:200
+#: includes/Api/ApiPricingPlan.php:201 includes/Api/ApiPricingPlan.php:288
+#: includes/Api/ApiPricingPlan.php:289 includes/Api/ApiPricingPlan.php:377
+#: includes/Api/ApiPricingPlan.php:378 includes/Api/ApiRequest.php:112
+#: includes/Core/Sources/Vimeo.php:91 includes/Core/Sources/Vimeo.php:156
+#: includes/Core/Sources/Vimeo.php:157 includes/Core/Sources/YouTube.php:136
+#: includes/Utils/InvoiceHelper.php:77 includes/Utils/InvoiceHelper.php:78
+#: includes/Utils/InvoiceHelper.php:298 includes/Utils/InvoiceHelper.php:299
+msgid "Could not contact the server"
+msgstr "Impossibile contattare il server"
+
+#: includes/Api/ApiPricingPlan.php:176
+msgid "The product license key is missing."
+msgstr "Errore, la licenza del prodotto è assente."
+
+#: includes/Api/ApiPricingPlan.php:385
+msgid "Unable to apply discount. You are not authorized to use this coupon"
+msgstr ""
+"Impossibile applicare lo sconto. Non sei abilitato ad usare questo coupon"
+
+#: includes/Api/ApiPricingPlan.php:386
+msgid ""
+"Unable to apply discount. This coupon can only be used on the first purchase"
+msgstr ""
+"Impossibile applicare lo sconto. Questo coupon può essere utilizzato solo al "
+"primo acquisto"
+
+#: includes/Api/ApiPricingPlan.php:387
+msgid ""
+"Unable to apply discount. Please try again later or enter a different "
+"discount code"
+msgstr ""
+"Impossibile applicare lo sconto. Riprova più tardi o inserisci un codice "
+"sconto differente"
+
+#: includes/Api/ApiRequest.php:84 includes/Api/ApiRequest.php:90
+#: includes/Api/ApiRequest.php:97
+msgid ""
+"An error occurred while creating the subtitles. Please try again in a few "
+"minutes."
+msgstr ""
+"Si è verificato un errore durante la creazione dei sottotitoli. Riprova di "
+"nuovo tra qualche minuto."
+
+#: includes/Api/ApiRequest.php:109 includes/Api/ApiRequest.php:110
+msgid ""
+"An error occurred while creating the subtitles. Please try again in a few "
+"minutes"
+msgstr ""
+"Si è verificato un errore durante la creazione dei sottotitoli. Riprova di "
+"nuovo tra qualche minuto."
+
+#: includes/Api/ApiRequest.php:111
+msgid "Unable to create subtitles. Invalid product license"
+msgstr ""
+"Impossibile creare i sottotitoli. La  licenza del prodotto non è valida"
+
+#: includes/Api/ApiRequest.php:213 includes/Core/Sources/Vimeo.php:92
+#: includes/Core/Sources/YouTube.php:137
+msgid "Error, no more video left for your subscription plan"
+msgstr "Errore, non hai più video disponibili per il tuo piano di abbonamento"
+
+#: includes/Api/ApiRequest.php:214
+msgid "Error, language not supported for your subscription plan"
+msgstr "Errore, lingua non supportata per il tuo piano di abbonamento"
+
+#: includes/Api/ApiRequest.php:215
+#: includes/MediaLibrary/MediaLibraryExtented.php:73
+#: includes/MediaLibrary/MediaLibraryExtented.php:184 build/index.js:896
+#: src/block/WubtitlePanel.js:88
+msgid "Unsupported video format for free plan"
+msgstr "Formato video non supportato per il piano free"
+
+#: includes/Api/ApiRequest.php:220
+msgid ""
+"Error, video length is longer than minutes available for your subscription "
+"plan (minutes left"
+msgstr ""
+"Errore, la durata del video è maggiore dei minuti disponibili per il tuo "
+"piano di abbonamento (minuti rimasti"
+
+#: includes/Api/ApiRequest.php:220
+msgid ", video left"
+msgstr ", video rimasti"
+
+#: includes/Core/CustomPostTypes/Transcript.php:39
+msgid "Shortcode"
+msgstr ""
+
+#: includes/Core/CustomPostTypes/Transcript.php:98
+#: includes/Core/CustomPostTypes/Transcript.php:100
+#: includes/Core/CustomPostTypes/Transcript.php:129
+msgid "Transcripts"
+msgstr "Trascrizioni"
+
+#: includes/Core/CustomPostTypes/Transcript.php:99
+#: includes/Core/CustomPostTypes/Transcript.php:119
+msgid "Transcript"
+msgstr "Trascrizione"
+
+#: includes/Core/CustomPostTypes/Transcript.php:101
+msgid "All transcripts"
+msgstr "Tutte le trascrizioni"
+
+#: includes/Core/CustomPostTypes/Transcript.php:102
+msgid "Add new"
+msgstr "Aggiungi nuovo"
+
+#: includes/Core/CustomPostTypes/Transcript.php:103
+msgid "Add new transcript"
+msgstr "Aggiungi nuova trascrizione"
+
+#: includes/Core/CustomPostTypes/Transcript.php:104
+msgid "Edit transcript"
+msgstr "Modifica trascrizione"
+
+#: includes/Core/CustomPostTypes/Transcript.php:105
+msgid "New transcript"
+msgstr "Nuova trascrizione"
+
+#: includes/Core/CustomPostTypes/Transcript.php:106
+msgid "View transcript"
+msgstr "Vedi trascrizione"
+
+#: includes/Core/CustomPostTypes/Transcript.php:107
+msgid "View transcripts"
+msgstr "Vedi trascrizioni"
+
+#: includes/Core/CustomPostTypes/Transcript.php:108
+msgid "Search transcripts"
+msgstr "Cerca trascrizioni"
+
+#: includes/Core/CustomPostTypes/Transcript.php:109
+msgid "No Transcripts found"
+msgstr "Nessuna trascrizione trovata"
+
+#: includes/Core/CustomPostTypes/Transcript.php:110
+msgid "No Transcripts found in trash"
+msgstr "Nessuna trascrizione trovata nel cestino"
+
+#: includes/Core/CustomPostTypes/Transcript.php:111
+#: includes/Core/CustomPostTypes/Transcript.php:125
+msgid "Parent transcript:"
+msgstr ""
+
+#: includes/Core/CustomPostTypes/Transcript.php:112
+msgid "Transcript archives"
+msgstr "Archivio trascrizioni"
+
+#: includes/Core/CustomPostTypes/Transcript.php:113
+msgid "Insert into Transcript"
+msgstr "Inserisci nella trascrizione"
+
+#: includes/Core/CustomPostTypes/Transcript.php:114
+msgid "Upload to this Transcript"
+msgstr "Aggiorna trascrizione"
+
+#: includes/Core/CustomPostTypes/Transcript.php:115
+msgid "Filter Transcripts list"
+msgstr "Filtra lista trascrizioni"
+
+#: includes/Core/CustomPostTypes/Transcript.php:116
+msgid "Transcripts list navigation"
+msgstr "Lista navigazione trascrizioni"
+
+#: includes/Core/CustomPostTypes/Transcript.php:117
+msgid "Transcripts list"
+msgstr "Lista trascrizioni"
+
+#: includes/Core/CustomPostTypes/Transcript.php:118
+msgid "Transcripts attributes"
+msgstr "Attributi trascrizioni"
+
+#: includes/Core/CustomPostTypes/Transcript.php:120
+msgid "Transcript published"
+msgstr "Trascrizione pubblicata"
+
+#: includes/Core/CustomPostTypes/Transcript.php:121
+msgid "Transcript published privately."
+msgstr "Trascrizione pubblicata privatamente."
+
+#: includes/Core/CustomPostTypes/Transcript.php:122
+msgid "Transcript reverted to draft."
+msgstr "Trascrizione ripristinata in bozza."
+
+#: includes/Core/CustomPostTypes/Transcript.php:123
+msgid "Transcript scheduled"
+msgstr "Trascrizione pianificata"
+
+#: includes/Core/CustomPostTypes/Transcript.php:124
+msgid "Transcript updated."
+msgstr "Trascrizione aggiornata."
+
+#: includes/Core/CustomPostTypes/Transcript.php:131
+msgid "Video Transcripts"
+msgstr "Trascrizioni video"
+
+#: includes/Core/Sources/Vimeo.php:90 includes/Core/Sources/YouTube.php:135
+msgid "Unable to create transcriptions. Invalid product license"
+msgstr ""
+"Impossibile creare i sottotitoli. La  licenza del prodotto non è valida"
+
+#: includes/Core/Sources/Vimeo.php:93
+msgid ""
+"The transcript from this video could not be recovered, unsupported subtitle "
+"format"
+msgstr ""
+"La trascrizione di questo video non può essere recuperata, formato "
+"sottotitoli non supportato"
+
+#: includes/Core/Sources/Vimeo.php:109 includes/Core/Sources/YouTube.php:149
+#: includes/Core/Sources/YouTube.php:157 includes/Core/Sources/YouTube.php:183
+msgid "Transcript not avaiable for this video."
+msgstr "Trascrizione non disponibile per questo video."
+
+#: includes/Core/Sources/Vimeo.php:136
+msgid "License key is missing"
+msgstr "Licenza del prodotto è assente."
+
+#: includes/Core/Sources/YouTube.php:84 includes/Core/Sources/YouTube.php:104
+msgid "Url not a valid youtube url"
+msgstr "Url youtube non valida"
+
+#: includes/Dashboard/PaymentTemplate.php:143
+msgid "Update successfull!"
+msgstr "Aggiornamento riuscito!"
+
+#: includes/Dashboard/PaymentTemplate.php:145
+msgid "Upgrade successfull!"
+msgstr "Modifica del piano avvenuta con successo"
+
+#: includes/Dashboard/PaymentTemplate.php:147
+msgid "Downgrade successfull!"
+msgstr "Modifica del piano avvenuta con successo"
+
+#: includes/Dashboard/Settings.php:47
+msgid "Wubtitle Settings"
+msgstr "Impostazioni Wubtitle"
+
+#: includes/Dashboard/Settings.php:89
+msgid "Licensing"
+msgstr "Licenza"
+
+#: includes/Dashboard/Settings.php:93
+msgid "Plan:"
+msgstr "Piano:"
+
+#: includes/Dashboard/Settings.php:102
+msgid "Generated video subtitles:"
+msgstr "Sottotitoli generati:"
+
+#: includes/Dashboard/Settings.php:109
+msgid "Video time spent:"
+msgstr "Tempo video utilizzato:"
+
+#: includes/Dashboard/Settings.php:111
+msgid "hours"
+msgstr "ore"
+
+#: includes/Dashboard/Settings.php:116
+msgid "The counters will be reset on:"
+msgstr "I contatori verranno resettati il:"
+
+#: includes/Dashboard/Settings.php:153
+msgid "Payment successful"
+msgstr "Pagamento effettuato"
+
+#: includes/Dashboard/Settings.php:154
+msgid "Payment information updated"
+msgstr "Metodo di pagamento aggiornato"
+
+#: includes/Dashboard/Settings.php:155
+msgid "Unsubscription successful"
+msgstr "Iscrizione annullata con successo"
+
+#: includes/Dashboard/Settings.php:156
+msgid "Reactivation of the plan successful"
+msgstr "Riattivazione del piano andato a buon fine"
+
+#: includes/Dashboard/Settings.php:157
+msgid "Invalid license or domain, the license key will be reset"
+msgstr "Licenza o dominio non validi, la licenza verrà resettata"
+
+#: includes/Dashboard/Settings.php:186
+msgid "Automatic renewal:"
+msgstr "Rinnovo automatico:"
+
+#: includes/Dashboard/Settings.php:188
+msgid ""
+"You requested the subscription cancellation. Your plan will be valid until"
+msgstr ""
+"Hai richiesto la cancellazione dell'abbonamento. Il tuo piano sarà valido "
+"fino al"
+
+#: includes/Dashboard/Settings.php:202
+msgid "Unsubscribe"
+msgstr "Annulla l'iscrizione"
+
+#: includes/Dashboard/Settings.php:205
+#: build_form/index.js:1
+#: src/stripe/Components/ColumnTitle.js:10
+msgid "Update billing or payment details"
+msgstr "Aggiorna dettagli di fatturazione o di pagamento"
+
+#: includes/Dashboard/Settings.php:208
+msgid "Modify plan"
+msgstr "Modifica piano"
+
+#: includes/Dashboard/Settings.php:214
+msgid "Reactivate plan"
+msgstr "Riattiva piano"
+
+#: includes/Dashboard/Settings.php:248
+msgid "Unable to update. Expired product license."
+msgstr "Impossibile aggiornare. Licenza del prodotto scaduta."
+
+#: includes/Dashboard/Settings.php:249
+msgid "Unable to update. Invalid product license."
+msgstr "Impossibile aggiornare. Licenza del prodotto non valida."
+
+#: includes/Dashboard/Settings.php:250
+msgid ""
+"An error occurred while updating licence. Please try again in a few minutes."
+msgstr ""
+"Si è verificato un errore durante l'aggiornamento della licenza. Riprova di "
+"nuovo tra qualche minuto."
+
+#: includes/Dashboard/Settings.php:251
+msgid "Could not contact the server."
+msgstr "Impossibile contattare il server."
+
+#: includes/Dashboard/Settings.php:327
+msgid "Upgrade feature temporarily disabled due to an error loading the page or you are using an inaccessible domain. If your domain is accessible reload the page and try again."
+msgstr ""
+"Impossibile effettuare l'upgrade del piano di abbonamento a causa di un "
+"errore durante il caricamento della pagina o stai usando un dominio non "
+"accessibile. Se il tuo dominio è accessibile ricarica la pagina e riprova"
+
+#: includes/Dashboard/Settings.php:331
+msgid "Upgrading and plan changes can only be done by the administrator"
+msgstr ""
+"Upgrading e cambio piano possono essere eseguito solo dall'amministratore"
+
+#: includes/Dashboard/Settings.php:336
+msgid "Unlock more features!"
+msgstr "Sblocca più funzionalità!"
+
+#: includes/Dashboard/Settings.php:341
+msgid "Upgrade"
+msgstr ""
+
+#: includes/Dashboard/Settings.php:351
+msgid "License Number"
+msgstr "Numero licenza"
+
+#: includes/Dashboard/Settings.php:358
+msgid "License key"
+msgstr "Licenza"
+
+#: includes/Dashboard/Settings.php:360
+msgid "Please enter the license key you received after successful checkout"
+msgstr ""
+"Inserisci la chiave di licenza ricevuta dopo aver effettuato il checkout"
+
+#: includes/Dashboard/Settings.php:395
+msgid "now!"
+msgstr " "
+
+#: includes/Dashboard/Templates/cancel_template.php:32
+msgid "Are you sure you want to unsubscribe?"
+msgstr "Sei sicuro che vuoi annullare l'iscrizione?"
+
+#: includes/Dashboard/Templates/cancel_template.php:33
+msgid ""
+"Are you sure you want to cancel your subscription? If you choose to "
+"continue, when the subscription expires your plan will return to free "
+"version and you will lose all the additional features"
+msgstr ""
+"Sei sicuro di voler annullare la tua iscrizione? Se scegli di continuare, "
+"allo scadere dell'abbonamento il tuo piano tornerà alla versione gratuita e "
+"perderai tutte le funzionalità aggiuntive"
+
+#: includes/Dashboard/Templates/cancel_template.php:35
+msgid "Return to free version"
+msgstr "Ritorna alla versione free"
+
+#: includes/Dashboard/Templates/cancel_template.php:36
+#: includes/Dashboard/Templates/downgrade_plan_template.php:50
+#: includes/Dashboard/Templates/upgrade_plan_template.php:139
+msgid "Forget it"
+msgstr "Annulla"
+
+#: includes/Dashboard/Templates/cancel_template.php:42
+msgid "Or choose another plan"
+msgstr "O scegli un'altro piano"
+
+#: includes/Dashboard/Templates/cancel_template.php:57
+#: includes/Dashboard/Templates/payment_template.php:44
+msgid "Per month"
+msgstr "Per mese"
+
+#: includes/Dashboard/Templates/cancel_template.php:86
+#: includes/Dashboard/Templates/payment_template.php:73
+msgid "Supported languages:"
+msgstr "Linguaggi supportati:"
+
+#: includes/Dashboard/Templates/downgrade_plan_template.php:25
+msgid "Subscription plan downgrade"
+msgstr "Modifica piano di abbonamento"
+
+#: includes/Dashboard/Templates/downgrade_plan_template.php:26
+msgid ""
+"Downgrading now, you will earn a credit that will be billed to you at the "
+"next charge"
+msgstr ""
+"Scegliendo un piano di abbonamento inferiore, guadagnerai un credito che "
+"verrà utilizzato al pagamento successivo"
+
+#: includes/Dashboard/Templates/downgrade_plan_template.php:35
+msgid "credit earnings"
+msgstr "di credito"
+
+#: includes/Dashboard/Templates/downgrade_plan_template.php:46
+#: includes/Dashboard/Templates/upgrade_plan_template.php:133
+msgid "Domain:"
+msgstr "Dominio:"
+
+#: includes/Dashboard/Templates/downgrade_plan_template.php:47
+#: includes/Dashboard/Templates/upgrade_plan_template.php:134
+msgid ""
+"The subtitles already created and the minutes already used will be counted "
+"on the new subscription plan"
+msgstr ""
+"I sottotitoli già creati e i minuti già utilizzati verranno conteggiati nel "
+"nuovo piano di abbonamento"
+
+#: includes/Dashboard/Templates/downgrade_plan_template.php:49
+msgid "Downgrade Now"
+msgstr "Modifica piano"
+
+#: includes/Dashboard/Templates/payment_template.php:29
+msgid "Choose the right plan for your project"
+msgstr "Scegli il piano giusto per il tuo progetto"
+
+#: includes/Dashboard/Templates/plans_array.php:25
+msgid ""
+"Unable to select this plan during the first month of subscription for "
+"current plan"
+msgstr ""
+"Non è possibile selezionare questo piano durante il primo mese di "
+"abbonamento per il piano corrente"
+
+#: includes/Dashboard/Templates/plans_array.php:28
+msgid "Minutes"
+msgstr "Minuti"
+
+#: includes/Dashboard/Templates/plans_array.php:28
+msgid "Hours"
+msgstr "Ore"
+
+#: includes/Dashboard/Templates/plans_array.php:29
+msgid "All WordPress video formats"
+msgstr "Tutti i formati video wordpress"
+
+#: includes/Dashboard/Templates/plans_array.php:33
+msgid "Choose this plan"
+msgstr "Scegli il piano"
+
+#: includes/Dashboard/Templates/plans_array.php:35
+msgid "Number of video"
+msgstr "Numero di video"
+
+#: includes/Dashboard/Templates/plans_array.php:36
+msgid "Total length of videos"
+msgstr "Lunghezza totale dei video"
+
+#: includes/Dashboard/Templates/plans_array.php:37
+msgid "Video format allowed"
+msgstr "Formati video supportati"
+
+#: includes/Dashboard/Templates/plans_array.php:50 build_form/index.js:1
+#: src/stripe/Components/PlanTable.js:22
+msgid "Your plan"
+msgstr "Il tuo piano"
+
+#: includes/Dashboard/Templates/thankyou_page.php:25
+msgid ""
+"Update Wubtitle settings page on your site backoffice to view the changes or "
+"click on the button below"
+msgstr ""
+"Aggiorna la pagina delle impostazioni di Wubtitle per visualizzare le "
+"modifiche o fai clic sul pulsante in basso"
+
+#: includes/Dashboard/Templates/thankyou_page.php:26
+msgid "BACK TO WUBTITLE"
+msgstr "TORNA A WUBTITLE"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:34
+msgid "Upgrade your plan"
+msgstr "Aggiorna il tuo piano"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:37
+msgid "Upgrading to"
+msgstr "Aggiornamento a"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:39
+msgid "now you will be charged only for the price difference between"
+msgstr "ti verrà addebitata solo la differenza di prezzo tra"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:41
+msgid "plan and your current plan with no changes to your billing period. "
+msgstr "piano e il piano attuale senza modifiche al periodo di fatturazione. "
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:66
+msgid "You will pay:"
+msgstr "Pagherai:"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:75
+#: includes/Dashboard/Templates/upgrade_plan_template.php:101
+msgid " (VAT)"
+msgstr "(IVA)"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:82
+msgid "What you pay now (Discounted"
+msgstr "Cosa paghi adesso (scontato"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:84
+msgid "Price)"
+msgstr "Prezzo)"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:89
+msgid "Until "
+msgstr "Fino"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:108
+msgid "What you pay monthly (Full"
+msgstr "Quanto paghi mensilmente(Full"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:110
+msgid "price)"
+msgstr "rezzo)"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:115
+msgid "From "
+msgstr "a partire da"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:123
+msgid "Current Payment details"
+msgstr "Dettagli di pagamento corrente"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:127
+msgid "Name: "
+msgstr "Nome:"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:128
+msgid "Email: "
+msgstr ""
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:129
+msgid "Card: "
+msgstr "Carta:"
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:130
+msgid "Expiration Date: "
+msgstr "Data di scadenza: "
+
+#: includes/Dashboard/Templates/upgrade_plan_template.php:140
+msgid "Upgrade Now"
+msgstr "Modifica piano"
+
+#: includes/Helpers.php:112 includes/MediaLibrary/MediaLibraryExtented.php:352
+#: build/index.js:1068 src/block/labels.js:38
+msgid "Italian"
+msgstr "Italiano"
+
+#: includes/Helpers.php:113
+msgid "US English"
+msgstr "Inglese (US)"
+
+#: includes/Helpers.php:114 includes/MediaLibrary/MediaLibraryExtented.php:354
+#: build/index.js:1070 src/block/labels.js:40
+msgid "Spanish"
+msgstr "Spagnolo"
+
+#: includes/Helpers.php:115 includes/MediaLibrary/MediaLibraryExtented.php:355
+#: build/index.js:1071 src/block/labels.js:41
+msgid "German"
+msgstr "Tedesco"
+
+#: includes/Helpers.php:116 includes/MediaLibrary/MediaLibraryExtented.php:356
+#: build/index.js:1072 src/block/labels.js:42
+msgid "Chinese"
+msgstr "Cinese"
+
+#: includes/Helpers.php:117 includes/MediaLibrary/MediaLibraryExtented.php:357
+#: build/index.js:1073 src/block/labels.js:43
+msgid "French"
+msgstr "Francese"
+
+#: includes/Helpers.php:118
+msgid "Gulf Arabic"
+msgstr "Golfo Arabo"
+
+#: includes/Helpers.php:119
+msgid "Modern Standard Arabic"
+msgstr "Arabo Moderno"
+
+#: includes/Helpers.php:120
+msgid "Dutch"
+msgstr "Olandese"
+
+#: includes/Helpers.php:121
+msgid "Australian English"
+msgstr "Inglese Australiano"
+
+#: includes/Helpers.php:122
+msgid "Welsh English"
+msgstr "Inglese Gallese"
+
+#: includes/Helpers.php:123
+msgid "US Spanish"
+msgstr "Spagnolo (US)"
+
+#: includes/Helpers.php:124
+msgid "Canadian French"
+msgstr "Francese Canadese"
+
+#: includes/Helpers.php:125 includes/Utils/VimeoHelper.php:68
+msgid "Farsi"
+msgstr "Farsi"
+
+#: includes/Helpers.php:126
+msgid "Swiss German"
+msgstr "Tedesco Svizzero"
+
+#: includes/Helpers.php:127 includes/Utils/VimeoHelper.php:84
+msgid "Hebrew"
+msgstr "Ebraico"
+
+#: includes/Helpers.php:128
+msgid "Indian Hindi"
+msgstr "Indiano Hindi"
+
+#: includes/Helpers.php:129 includes/Utils/VimeoHelper.php:87
+msgid "Indonesian"
+msgstr "Indonesiano"
+
+#: includes/Helpers.php:130 includes/Utils/VimeoHelper.php:91
+msgid "Japanese"
+msgstr "Giapponese"
+
+#: includes/Helpers.php:131
+msgid "Korean"
+msgstr "Coreano"
+
+#: includes/Helpers.php:132
+msgid "Malay"
+msgstr "Malese"
+
+#: includes/Helpers.php:133
+msgid "Portuguese"
+msgstr "Portoghese"
+
+#: includes/Helpers.php:134 includes/Utils/VimeoHelper.php:110
+msgid "Russian"
+msgstr "Russo"
+
+#: includes/Helpers.php:135
+msgid "Tamil"
+msgstr "Tamil"
+
+#: includes/Helpers.php:136
+msgid "Telugu"
+msgstr "Telugu"
+
+#: includes/Helpers.php:137 includes/Utils/VimeoHelper.php:139
+msgid "Turkish"
+msgstr "Turco"
+
+#: includes/Helpers.php:138
+msgid "Indian English"
+msgstr "Inglese Indiano"
+
+#: includes/Helpers.php:139
+msgid "Irish English"
+msgstr "Inglese Irlandese"
+
+#: includes/Helpers.php:140
+msgid "Scottish English"
+msgstr "Inglese Scozzese"
+
+#: includes/Helpers.php:141
+msgid "British English"
+msgstr "Inglese (UK)"
+
+#: includes/Helpers.php:142
+msgid "Brazilian Portuguese"
+msgstr "Portoghese Brasiliano"
+
+#: includes/MediaLibrary/ListingSubtitles.php:36
+#: includes/MediaLibrary/MediaLibraryExtented.php:82
+#: includes/MediaLibrary/MediaLibraryExtented.php:114
+msgid "Subtitle"
+msgstr "Sottotitoli"
+
+#: includes/MediaLibrary/ListingSubtitles.php:49
+#: includes/MediaLibrary/MediaLibraryExtented.php:56
+#: includes/MediaLibrary/MediaLibraryExtented.php:171 build/index.js:1032
+#: src/block/labels.js:7
+msgid "Generating"
+msgstr "In Creazione"
+
+#: includes/MediaLibrary/ListingSubtitles.php:50
+#: includes/MediaLibrary/MediaLibraryExtented.php:57
+#: includes/MediaLibrary/MediaLibraryExtented.php:124
+#: includes/MediaLibrary/MediaLibraryExtented.php:172
+#: includes/MediaLibrary/MediaLibraryExtented.php:248 build/index.js:1033
+#: src/block/labels.js:8
+msgid "Draft"
+msgstr "In bozza"
+
+#: includes/MediaLibrary/ListingSubtitles.php:51
+#: includes/MediaLibrary/MediaLibraryExtented.php:58
+#: includes/MediaLibrary/MediaLibraryExtented.php:123
+#: includes/MediaLibrary/MediaLibraryExtented.php:173
+#: includes/MediaLibrary/MediaLibraryExtented.php:247 build/index.js:625
+#: src/block/SubtitleControl.js:73
+msgid "Published"
+msgstr "Pubblicati"
+
+#: includes/MediaLibrary/ListingSubtitles.php:53
+#: includes/MediaLibrary/MediaLibraryExtented.php:60
+#: includes/MediaLibrary/MediaLibraryExtented.php:174 build/index.js:353
+#: build/index.js:878 build/index.js:1035 src/block/EmbedControlPanel.js:11
+#: src/block/labels.js:10 src/block/WubtitlePanel.js:60
+msgid "None"
+msgstr "Nessuno"
+
+#: includes/MediaLibrary/ListingSubtitles.php:54
+#: includes/MediaLibrary/MediaLibraryExtented.php:59
+#: includes/MediaLibrary/MediaLibraryExtented.php:175 build/index.js:878
+#: src/block/WubtitlePanel.js:59
+msgid "Error"
+msgstr "Errore"
+
+#: includes/MediaLibrary/MediaLibraryExtented.php:91
+#: includes/MediaLibrary/MediaLibraryExtented.php:132
+#: includes/MediaLibrary/MediaLibraryExtented.php:220
+#: includes/MediaLibrary/MediaLibraryExtented.php:264
+msgid "Language"
+msgstr "Lingua"
+
+#: includes/MediaLibrary/MediaLibraryExtented.php:104
+#: includes/MediaLibrary/MediaLibraryExtented.php:276 build/index.js:892
+#: src/block/WubtitlePanel.js:79
+msgid "GENERATE SUBTITLES"
+msgstr "GENERA SOTTOTITOLI"
+
+#: includes/MediaLibrary/MediaLibraryExtented.php:198
+msgid "Subtitles"
+msgstr "Sottotitoli"
+
+#: includes/MediaLibrary/MediaLibraryExtented.php:202
+msgid "Status"
+msgstr "Stato"
+
+#: includes/MediaLibrary/MediaLibraryExtented.php:227
+msgid ""
+"Wait while subtitles are created. Subtitles will be available as soon as "
+"possible"
+msgstr ""
+"Attendi che vengano creati i sottotitoli. I sottotitoli saranno disponibili "
+"il prima possibile"
+
+#: includes/MediaLibrary/MediaLibraryExtented.php:353
+#: includes/Utils/VimeoHelper.php:56 build/index.js:1069 src/block/labels.js:39
+msgid "English"
+msgstr "Inglese"
+
+#: includes/MediaLibrary/TrascriptionsExtends.php:66
+msgid "Add transcription"
+msgstr "Aggiungi trascrizione"
+
+#: includes/Utils/InvoiceHelper.php:58 includes/Utils/InvoiceHelper.php:107
+#: includes/Utils/InvoiceHelper.php:204
+msgid "Error. The product license key is missing."
+msgstr "Errore, la licenza del prodotto è assente."
+
+#: includes/Utils/InvoiceHelper.php:305
+msgid "Invalid Coupon"
+msgstr "Coupon non valido"
+
+#: includes/Utils/VimeoHelper.php:25
+msgid "Afrikaans"
+msgstr "Africano"
+
+#: includes/Utils/VimeoHelper.php:26
+msgid "Albanian"
+msgstr "Albanese"
+
+#: includes/Utils/VimeoHelper.php:27
+msgid "Arabic (U.A.E.)"
+msgstr "Arabo (U.A.E.)"
+
+#: includes/Utils/VimeoHelper.php:28
+msgid "Arabic (Bahrain)"
+msgstr "Arabo (Bahrain)"
+
+#: includes/Utils/VimeoHelper.php:29
+msgid "Arabic (Algeria)"
+msgstr "Arabo (Algeria)"
+
+#: includes/Utils/VimeoHelper.php:30
+msgid "Arabic (Egypt)"
+msgstr "Arabo (Egitto)"
+
+#: includes/Utils/VimeoHelper.php:31
+msgid "Arabic (Iraq)"
+msgstr "Arabo (Iraq)"
+
+#: includes/Utils/VimeoHelper.php:32
+msgid "Arabic (Jordan)"
+msgstr "Arabo (Jordan)"
+
+#: includes/Utils/VimeoHelper.php:33
+msgid "Arabic (Kuwait)"
+msgstr "Arabo (Kuwait)"
+
+#: includes/Utils/VimeoHelper.php:34
+msgid "Arabic (Lebanon)"
+msgstr "Arabo (Lebanon)"
+
+#: includes/Utils/VimeoHelper.php:35
+msgid "Arabic (Libya)"
+msgstr "Arabo (Libia)"
+
+#: includes/Utils/VimeoHelper.php:36
+msgid "Arabic (Morocco)"
+msgstr "Arabo (Marocco)"
+
+#: includes/Utils/VimeoHelper.php:37
+msgid "Arabic (Oman)"
+msgstr "Arabo (Oman)"
+
+#: includes/Utils/VimeoHelper.php:38
+msgid "Arabic (Qatar)"
+msgstr "Arabo (Qatar)"
+
+#: includes/Utils/VimeoHelper.php:39
+msgid "Arabic (Saudi Arabia)"
+msgstr "Arabo (Arabia Saudita)"
+
+#: includes/Utils/VimeoHelper.php:40
+msgid "Arabic (Syria)"
+msgstr "Arabo (Siria)"
+
+#: includes/Utils/VimeoHelper.php:41
+msgid "Arabic (Tunisia)"
+msgstr "Arabo (Tunisia)"
+
+#: includes/Utils/VimeoHelper.php:42
+msgid "Arabic (Yemen)"
+msgstr "Arabo (Yemen)"
+
+#: includes/Utils/VimeoHelper.php:43
+msgid "Basque"
+msgstr "Basco"
+
+#: includes/Utils/VimeoHelper.php:44
+msgid "Belarusian"
+msgstr "Biellorussia"
+
+#: includes/Utils/VimeoHelper.php:45
+msgid "Bulgarian"
+msgstr "Bulgaro"
+
+#: includes/Utils/VimeoHelper.php:46
+msgid "Catalan"
+msgstr "Catalano"
+
+#: includes/Utils/VimeoHelper.php:47
+msgid "Croatian"
+msgstr "Croato"
+
+#: includes/Utils/VimeoHelper.php:48
+msgid "Chinese (PRC)"
+msgstr "Cinese (PRC)"
+
+#: includes/Utils/VimeoHelper.php:49
+msgid "Chinese (Hong Kong)"
+msgstr "Cinese (Hong Kong)"
+
+#: includes/Utils/VimeoHelper.php:50
+msgid "Chinese (Singapore)"
+msgstr "Cinese (Singapore)"
+
+#: includes/Utils/VimeoHelper.php:51
+msgid "Chinese (Taiwan)"
+msgstr "Cinese (Taiwan)"
+
+#: includes/Utils/VimeoHelper.php:52
+msgid "Czech"
+msgstr "Ceco"
+
+#: includes/Utils/VimeoHelper.php:53
+msgid "Danish"
+msgstr "Danese"
+
+#: includes/Utils/VimeoHelper.php:54
+msgid "Dutch (Standard)"
+msgstr "Olandese (Standard)"
+
+#: includes/Utils/VimeoHelper.php:55
+msgid "Dutch (Belgium)"
+msgstr "Oldandese (Belgio)"
+
+#: includes/Utils/VimeoHelper.php:57
+msgid "English (Australia)"
+msgstr "Inglese (Australia)"
+
+#: includes/Utils/VimeoHelper.php:58
+msgid "English (Belize)"
+msgstr "Inglese (Belize)"
+
+#: includes/Utils/VimeoHelper.php:59
+msgid "English (Canada)"
+msgstr "Inglese (Canada)"
+
+#: includes/Utils/VimeoHelper.php:60
+msgid "English (United Kingdom)"
+msgstr "Inglese (Regno Unito)"
+
+#: includes/Utils/VimeoHelper.php:61
+msgid "English (Ireland)"
+msgstr "Inglese (Irlanda)"
+
+#: includes/Utils/VimeoHelper.php:62
+msgid "English (Jamaica)"
+msgstr "Inglese (Jamaica)"
+
+#: includes/Utils/VimeoHelper.php:63
+msgid "English (New Zealand)"
+msgstr "Inglese (Nuova Zelanda)"
+
+#: includes/Utils/VimeoHelper.php:64
+msgid "English (Trinidad)"
+msgstr "Inglese (Trinidad)"
+
+#: includes/Utils/VimeoHelper.php:65
+msgid "English (United States)"
+msgstr "Inglese (Stati Uniti)"
+
+#: includes/Utils/VimeoHelper.php:66
+msgid "English (South Africa)"
+msgstr "Inglese (Sud Africa)"
+
+#: includes/Utils/VimeoHelper.php:67
+msgid "Estonian"
+msgstr "Estone"
+
+#: includes/Utils/VimeoHelper.php:69
+msgid "Finnish"
+msgstr "Finlandese"
+
+#: includes/Utils/VimeoHelper.php:70
+msgid "Faeroese"
+msgstr "Faeroese"
+
+#: includes/Utils/VimeoHelper.php:71
+msgid "French (Standard)"
+msgstr "Francese (Standard)"
+
+#: includes/Utils/VimeoHelper.php:72
+msgid "French (Belgium)"
+msgstr "Francese (Belgio)"
+
+#: includes/Utils/VimeoHelper.php:73
+msgid "French (Canada)"
+msgstr "Francese (Canada)"
+
+#: includes/Utils/VimeoHelper.php:74
+msgid "French (Switzerland)"
+msgstr "Francese (Svizzera)"
+
+#: includes/Utils/VimeoHelper.php:75
+msgid "French (Luxembourg)"
+msgstr "Francese (Lussenburgo)"
+
+#: includes/Utils/VimeoHelper.php:76
+msgid "Gaelic (Scotland)"
+msgstr "Gaelico (Scozia)"
+
+#: includes/Utils/VimeoHelper.php:77
+msgid "German (Standard)"
+msgstr "Tedesco (Standard)"
+
+#: includes/Utils/VimeoHelper.php:78
+msgid "German (Austria)"
+msgstr "Tedesco (Austria)"
+
+#: includes/Utils/VimeoHelper.php:79
+msgid "German (Switzerland)"
+msgstr "Tedesco (Svizzera)"
+
+#: includes/Utils/VimeoHelper.php:80
+msgid "German (Liechtenstein)"
+msgstr "Tedesco (Liechtenstein)"
+
+#: includes/Utils/VimeoHelper.php:81
+msgid "German (Luxembourg)"
+msgstr "Tedesco (Lussenburgo)"
+
+#: includes/Utils/VimeoHelper.php:82
+msgid "Greek"
+msgstr "Greco"
+
+#: includes/Utils/VimeoHelper.php:83
+msgid "Irish"
+msgstr "Irlandese"
+
+#: includes/Utils/VimeoHelper.php:85
+msgid "Hindi"
+msgstr "Hindi"
+
+#: includes/Utils/VimeoHelper.php:86
+msgid "Hungarian"
+msgstr "Ungherese"
+
+#: includes/Utils/VimeoHelper.php:88
+msgid "Icelandic"
+msgstr "Islandese"
+
+#: includes/Utils/VimeoHelper.php:89
+msgid "Italian (Standard)"
+msgstr "Italiano (Standard)"
+
+#: includes/Utils/VimeoHelper.php:90
+msgid "Italian (Switzerland)"
+msgstr "Italiano (Svizzera)"
+
+#: includes/Utils/VimeoHelper.php:92
+msgid "Korean (Johab)"
+msgstr "Coreano (Johab)"
+
+#: includes/Utils/VimeoHelper.php:93
+msgid "Kurdish"
+msgstr "Curdo"
+
+#: includes/Utils/VimeoHelper.php:94
+msgid "Lithuanian"
+msgstr "Lituano"
+
+#: includes/Utils/VimeoHelper.php:95
+msgid "Latvian"
+msgstr "Lettone"
+
+#: includes/Utils/VimeoHelper.php:96
+msgid "Macedonian (FYROM)"
+msgstr "Macedone (FYROM)"
+
+#: includes/Utils/VimeoHelper.php:97
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: includes/Utils/VimeoHelper.php:98
+msgid "Malaysian"
+msgstr "Malese"
+
+#: includes/Utils/VimeoHelper.php:99
+msgid "Maltese"
+msgstr "Maltese"
+
+#: includes/Utils/VimeoHelper.php:100
+msgid "Norwegian (Bokmål)"
+msgstr "Norvegese (Bokmål)"
+
+#: includes/Utils/VimeoHelper.php:101
+msgid "Norwegian (Nynorsk)"
+msgstr "Norvegese (Nynorsk)"
+
+#: includes/Utils/VimeoHelper.php:102
+msgid "Norwegian"
+msgstr "Norvegese"
+
+#: includes/Utils/VimeoHelper.php:103
+msgid "Punjabi"
+msgstr "Punjabi"
+
+#: includes/Utils/VimeoHelper.php:104
+msgid "Polish"
+msgstr "Polacco"
+
+#: includes/Utils/VimeoHelper.php:105
+msgid "Portuguese (Portugal)"
+msgstr "Portoghese (Portogallo)"
+
+#: includes/Utils/VimeoHelper.php:106
+msgid "Portuguese (Brazil)"
+msgstr "Portoghese (Brasile)"
+
+#: includes/Utils/VimeoHelper.php:107
+msgid "Rhaeto-Romanic"
+msgstr "Retoromanico"
+
+#: includes/Utils/VimeoHelper.php:108
+msgid "Romanian"
+msgstr "Rumeno"
+
+#: includes/Utils/VimeoHelper.php:109
+msgid "Romanian (Republic of Moldova)"
+msgstr "Rumeno (Repubblica di Moldova)"
+
+#: includes/Utils/VimeoHelper.php:111
+msgid "Russian (Republic of Moldova)"
+msgstr "Russo (Repubblica di Moldova)"
+
+#: includes/Utils/VimeoHelper.php:112
+msgid "Sorbian"
+msgstr "Sorabo"
+
+#: includes/Utils/VimeoHelper.php:113
+msgid "Slovak"
+msgstr "Slovacco"
+
+#: includes/Utils/VimeoHelper.php:114
+msgid "Slovenian"
+msgstr "Sloveno"
+
+#: includes/Utils/VimeoHelper.php:115
+msgid "Serbian"
+msgstr "Serbo"
+
+#: includes/Utils/VimeoHelper.php:116
+msgid "Spanish (Spain)"
+msgstr "Spagnolo (Spagna)"
+
+#: includes/Utils/VimeoHelper.php:117
+msgid "Spanish (Argentina)"
+msgstr "Spagnolo (Argentina)"
+
+#: includes/Utils/VimeoHelper.php:118
+msgid "Spanish (Bolivia)"
+msgstr "Spagnolo (Bolivia)"
+
+#: includes/Utils/VimeoHelper.php:119
+msgid "Spanish (Chile)"
+msgstr "Spagnolo (Cile)"
+
+#: includes/Utils/VimeoHelper.php:120
+msgid "Spanish (Colombia)"
+msgstr "Spagnolo (Colombia)"
+
+#: includes/Utils/VimeoHelper.php:121
+msgid "Spanish (Costa Rica)"
+msgstr "Spagnolo (Costa Rica)"
+
+#: includes/Utils/VimeoHelper.php:122
+msgid "Spanish (Dominican Republic)"
+msgstr "Spagnolo (Repubblica Domenicana)"
+
+#: includes/Utils/VimeoHelper.php:123
+msgid "Spanish (Ecuador)"
+msgstr "Spagnolo (Equador)"
+
+#: includes/Utils/VimeoHelper.php:124
+msgid "Spanish (Guatemala)"
+msgstr "Spagnolo (Guatemala)"
+
+#: includes/Utils/VimeoHelper.php:125
+msgid "Spanish (Honduras)"
+msgstr "Spagnolo (Honduras)"
+
+#: includes/Utils/VimeoHelper.php:126
+msgid "Spanish (Mexico)"
+msgstr "Spagnolo (Messico)"
+
+#: includes/Utils/VimeoHelper.php:127
+msgid "Spanish (Nicaragua)"
+msgstr "Spagnolo (Nicaragua)"
+
+#: includes/Utils/VimeoHelper.php:128
+msgid "Spanish (Panama)"
+msgstr "Spagnolo (Panama)"
+
+#: includes/Utils/VimeoHelper.php:129
+msgid "Spanish (Peru)"
+msgstr "Spagnolo (Perù)"
+
+#: includes/Utils/VimeoHelper.php:130
+msgid "Spanish (Puerto Rico)"
+msgstr "Spagnolo (Porto Rico)"
+
+#: includes/Utils/VimeoHelper.php:131
+msgid "Spanish (Paraguay)"
+msgstr "Spagnolo (Paraguay)"
+
+#: includes/Utils/VimeoHelper.php:132
+msgid "Spanish (El Salvador)"
+msgstr "Spagnolo (El Salvador)"
+
+#: includes/Utils/VimeoHelper.php:133
+msgid "Spanish (Uruguay)"
+msgstr "Spagnolo (Uruguay)"
+
+#: includes/Utils/VimeoHelper.php:134
+msgid "Spanish (Venezuela)"
+msgstr "Spagnolo (Venezuela)"
+
+#: includes/Utils/VimeoHelper.php:135
+msgid "Swedish"
+msgstr "Svedese"
+
+#: includes/Utils/VimeoHelper.php:136
+msgid "Swedish (Finland)"
+msgstr "Svedese (Finlandia)"
+
+#: includes/Utils/VimeoHelper.php:137
+msgid "Thai"
+msgstr "Tailandese"
+
+#: includes/Utils/VimeoHelper.php:138
+msgid "Tswana"
+msgstr "Tswana"
+
+#: includes/Utils/VimeoHelper.php:140
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#: includes/Utils/VimeoHelper.php:141
+msgid "Ukrainian"
+msgstr "Ucraino"
+
+#: includes/Utils/VimeoHelper.php:142
+msgid "Urdu"
+msgstr "Urdu"
+
+#: includes/Utils/VimeoHelper.php:143
+msgid "Venda"
+msgstr "Venda"
+
+#: includes/Utils/VimeoHelper.php:144
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: includes/Utils/VimeoHelper.php:145
+msgid "Welsh"
+msgstr "Gallese"
+
+#: includes/Utils/VimeoHelper.php:146
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: includes/Utils/VimeoHelper.php:147
+msgid "Yiddish"
+msgstr "Yiddish"
+
+#: includes/Utils/VimeoHelper.php:148
+msgid "Zulu"
+msgstr "Zulu"
+
+#: assets/editor/transcriptionModalScript.js:47
+msgid "Transcription of the video"
+msgstr "Trascrizione del video"
+
+#: assets/editor/transcriptionModalScript.js:69
+msgid "Error, language not selected"
+msgstr "Errore, lingua non selezionata"
+
+#: assets/editor/transcriptionModalScript.js:112
+#: assets/editor/transcriptionModalScript.js:147
+#: assets/editor/transcriptionModalScript.js:168
+#: assets/editor/transcriptionModalScript.js:192 build/index.js:457
+#: src/block/EmbedControlPanel.js:96
+msgid "Select language"
+msgstr "Seleziona la lingua"
+
+#: assets/editor/transcriptionModalScript.js:118
+msgid ""
+"Error: this video does not contain subtitles. Select a video with subtitles "
+"to generate the transcript"
+msgstr ""
+"Errore: questo video non contiene sottotitoli. Selezionare un video con "
+"sottotitoli per generare la trascrizione"
+
+#: assets/editor/transcriptionModalScript.js:161
+msgid "Language of trascription"
+msgstr "Lingua della trascrizione"
+
+#: build/index.js:418 src/block/EmbedControlPanel.js:54
+msgid "Created"
+msgstr "Creata"
+
+#: build/index.js:437 src/block/EmbedControlPanel.js:77
+msgid "Subtitles not available for this video"
+msgstr "Sottotitoli non disponibili per questo video"
+
+#: build/index.js:478 src/block/EmbedControlPanel.js:115
+msgid "Transcript status:"
+msgstr "Stato trascrizione:"
+
+#: build/index.js:483 src/block/EmbedControlPanel.js:124
+msgid "Select transcript language"
+msgstr "Selezione la lingua della trascrizione"
+
+#: build/index.js:484 build/index.js:880 src/block/EmbedControlPanel.js:131
+#: src/block/WubtitlePanel.js:65
+msgid "Select the video language"
+msgstr "Seleziona la lingua del video"
+
+#: build/index.js:497 build/index.js:635 src/block/EmbedControlPanel.js:150
+#: src/block/SubtitleControl.js:80
+msgid "Get Transcribe"
+msgstr "Ottieni trascrizione"
+
+#: build/index.js:526 build/index.js:620 build/index.js:879
+#: src/block/PendingSubtitle.js:7 src/block/SubtitleControl.js:67
+#: src/block/WubtitlePanel.js:63
+msgid "Status:"
+msgstr "Stato:"
+
+#: build/index.js:526 build/index.js:624 src/block/PendingSubtitle.js:8
+#: src/block/SubtitleControl.js:70
+msgid "Language:"
+msgstr "Lingua:"
+
+#: build/index.js:589 src/block/SubtitleControl.js:29
+msgid "Getting transcript…"
+msgstr "Generazione trascrizione..."
+
+#: build/index.js:774 src/block/TranscriptionEditBlock.js:108
+msgid "Wubtitle transcriptions"
+msgstr "Trascrizioni Wubtitle"
+
+#: build/index.js:780 src/block/TranscriptionEditBlock.js:112
+msgid "Insert transcriptions"
+msgstr "Inserisci trascrizioni"
+
+#: build/index.js:787 src/block/TranscriptionEditBlock.js:117
+msgid "Enter the title of the video you want to transcribe"
+msgstr "Scrivi il titolo del video del quale vuoi inserire la trascrizione"
+
+#: build/index.js:914 src/block/WubtitlePanel.js:110
+msgid "Subtitle creation successfully started"
+msgstr "Creazione dei sottotitoli avviata con successo"
+
+#: build/index.js:1034 src/block/labels.js:9
+msgid "Enabled"
+msgstr "Attivati"
+
+#: build/index.js:1063 src/block/labels.js:32
+msgid "(Pro Only)"
+msgstr "(solo Pro)"
+
+#: build/index.js:1096 src/block/trascriptionBlock.js:6
+msgid "Trascription"
+msgstr "Trascrizione"
+
+#: build/index.js:1098 src/block/trascriptionBlock.js:8
+msgid "Enter the transcript of your video"
+msgstr "Inserisci la trascrizione del tuo video"
+
+#: build_form/index.js:1 src/stripe/Components/CardSection.js:33
+msgid "Card details"
+msgstr "Dettagli carta"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:31
+#: src/stripe/Components/InvoiceForm.js:17
+msgid "Required"
+msgstr "Obbligat"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:38
+#: src/stripe/Components/InvoiceForm.js:44
+msgid "Invalid email"
+msgstr "Email non valida"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:88
+msgid "Coupon"
+msgstr ""
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:95
+msgid "Discount Code"
+msgstr "Codice Sconto"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:114
+msgid "Apply Coupon"
+msgstr "Applica Coupon"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:120
+msgid "Payment Details"
+msgstr "Dettagli di pagamento"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:125
+msgid "editing enabled"
+msgstr "modalità modifica attivata"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:126
+msgid "editing disabled"
+msgstr "modalità modifica disattivata"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:144
+#: src/stripe/Components/InvoiceSummary.js:40
+msgid "Email"
+msgstr ""
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:148
+msgid "Card Details"
+msgstr "Dettagli carta"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:154
+#: src/stripe/Components/CheckoutForm.js:197
+msgid "Card Holder"
+msgstr "Titolare della carta"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:158
+msgid "Expires"
+msgstr "Scadenza"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:217
+msgid "Back"
+msgstr "Indietro"
+
+#: build_form/index.js:1 src/stripe/Components/CheckoutForm.js:226
+msgid "Subscribe"
+msgstr "Iscrizione"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:48
+msgid "Telephone number required"
+msgstr "Numero di telefono richiesto"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:49
+#: src/stripe/Components/InvoiceForm.js:73
+#: src/stripe/Components/InvoiceForm.js:96
+msgid "Only numbers"
+msgstr "Solo numeri"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:51
+msgid "Prefix required"
+msgstr "Prefisso obbligatorio"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:54
+msgid "Prefix is only numbers"
+msgstr "Prefisso: solo numeri"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:56
+msgid "Prefix must be max 3 numbers"
+msgstr "Il prefisso ha massimo 3 numeri"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:71
+msgid "Vat Code must be exactly 11 characters"
+msgstr "La partita iva deve essere esattamente di 11 caratteri"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:81
+msgid "Fiscal Code must be exactly 16 characters"
+msgstr "Il codice fiscale deve essere esattamente di 16 caratteri"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:85
+msgid "Invalid Fiscal Code"
+msgstr "Codice fiscale non valido"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:94
+msgid "Postal Code must be exactly 5 characters"
+msgstr "Il codice postale deve essere esattamente di 5 caratteri"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:100
+msgid "Destination Code must be exactly 7 characters"
+msgstr "Codice di destinazioni deve essere esattamente di 7 caratteri"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:151
+msgid "Billing Details"
+msgstr "Dettagli fatturazione"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:164
+#: src/stripe/Components/InvoiceSummary.js:36
+msgid "Name"
+msgstr "Nome"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:177
+#: src/stripe/Components/InvoiceSummary.js:72
+msgid "Lastname"
+msgstr "Cognome"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:197
+#: src/stripe/Components/InvoiceSummary.js:77
+msgid "Company Name"
+msgstr "Nome azienda"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:209
+#: src/stripe/Components/InvoiceSummary.js:44
+msgid "Country"
+msgstr "Nazione"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:233
+#: src/stripe/Components/InvoiceSummary.js:86
+msgid "Province"
+msgstr "Provincia"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:253
+#: src/stripe/Components/InvoiceSummary.js:94
+msgid "City"
+msgstr "Città"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:262
+#: src/stripe/Components/InvoiceSummary.js:56
+msgid "Address"
+msgstr "Indirizzo"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:275
+#: src/stripe/Components/InvoiceSummary.js:49
+msgid "Postal Code"
+msgstr "Codice postale"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:291
+msgid "Vat Code"
+msgstr "Partita iva"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:313
+#: src/stripe/Components/InvoiceSummary.js:100
+msgid "Fiscal Code"
+msgstr "Codice fiscale"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:325
+#: src/stripe/Components/InvoiceSummary.js:62
+msgid "Telephone"
+msgstr "Numero di telefono"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:355
+#: src/stripe/Components/InvoiceSummary.js:120
+msgid "Destination Code"
+msgstr "Codice di destinazione"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:372
+msgid "Cancel"
+msgstr "Annulla"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceForm.js:378
+msgid "Next"
+msgstr "Avanti"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceSummary.js:24
+msgid "Billing Recap"
+msgstr "Riepilogo dati di fattura"
+
+#: build_form/index.js:1 src/stripe/Components/InvoiceSummary.js:110
+msgid "VAT Code"
+msgstr "Partita IVA"
+
+#: build_form/index.js:1 src/stripe/Components/InfoPriceColumn.js:57
+#: src/stripe/Components/PlanTable.js:18 src/stripe/Components/PriceTable.js:23
+msgid "Domain"
+msgstr ""
+
+#: build_form/index.js:1 src/stripe/Components/PlanTable.js:26
+#: src/stripe/Components/PriceTable.js:27
+msgid "Price"
+msgstr "Prezzo"
+
+#: build_form/index.js:1 src/stripe/Components/PlanTable.js:31
+#: src/stripe/Components/PriceTable.js:42
+msgid "VAT"
+msgstr "IVA"
+
+#: build_form/index.js:1 src/stripe/Components/PlanTable.js:39
+#: src/stripe/Components/PriceTable.js:50
+msgid "no Vat due for you"
+msgstr "nessuna IVA per te"
+
+#: build_form/index.js:1 src/stripe/Components/PlanTable.js:45
+#: src/stripe/Components/PriceTable.js:56
+msgid "Total"
+msgstr "Totale"
+
+#: build_form/index.js:1 src/stripe/Components/PriceTable.js:65
+msgid "Coupon applied!"
+msgstr "Coupon applicato!"
+
+#: build_form/index.js:1 src/stripe/Components/Disclaimer.js:10
+msgid ""
+"When ordering within the EU an order may be exempt to VAT if a valid VAT "
+"registration number is provided."
+msgstr ""
+"In caso di pagamento all'interno dell'UE un pagamento può essere esente da "
+"IVA se viene fornito un numero di partita IVA valido."
+
+#: build_form/index.js:1 src/stripe/Components/Disclaimer.js:21
+msgid "Terms and conditions"
+msgstr "Termini e condizioni"
+
+#: build_form/index.js:1 src/stripe/Components/Disclaimer.js:29
+msgid "Privacy"
+msgstr ""
+
+#: build_form/index.js:1 src/stripe/Components/ColumnTitle.js:11
+msgid "Subscribe to"
+msgstr "Iscrizione a"
+
+#: build_form/index.js:1 src/stripe/Components/ColumnTitle.js:11
+msgid "plan"
+msgstr "piano"
+
+#: build_form/index.js:1 src/stripe/Components/PlanTable.js:49
+msgid " per month"
+msgstr "per mese"
+
+#: build_form/index.js:1 src/stripe/Components/PlanTable.js:55
+msgid "Automatic renewal"
+msgstr "Rinnovo automatico: "
+
+#: build_form/index.js:1 src/stripe/Components/InfoPriceColumn.js:23
+msgid "per month"
+msgstr "per mese"
+
+#: build_form/index.js:1 src/stripe/Components/InfoPriceColumn.js:26
+msgid "for this month*"
+msgstr "per questo mese*"
+
+#: build_form/index.js:1 src/stripe/Components/InfoPriceColumn.js:27
+msgid "After the first month the monthly price will be"
+msgstr "Dopo il primo mese il prezzo mensile sarà"
+
+#: build_form/index.js:1 src/stripe/Components/InfoPriceColumn.js:32
+#: src/stripe/Components/InfoPriceColumn.js:43
+msgid "(VAT)"
+msgstr "(IVA)"
+
+#: build_form/index.js:1 src/stripe/Components/InfoPriceColumn.js:36
+msgid "for the firsts"
+msgstr "per i primi"
+
+#: build_form/index.js:1 src/stripe/Components/InfoPriceColumn.js:38
+msgid "months*"
+msgstr "mesi*"
+
+#: build_form/index.js:1 src/stripe/Components/InfoPriceColumn.js:39
+msgid "After the firsts"
+msgstr "Dopo i primi"
+
+#: build_form/index.js:1 src/stripe/Components/InfoPriceColumn.js:41
+msgid "months the monthly price will be"
+msgstr "mesi il prezzo mensile sarà"
+
+#~ msgid "Error, invalid language selected"
+#~ msgstr "Errore, lingua selezionata non valida"
+
+#~ msgid "Spanish (Pro only)"
+#~ msgstr "Spagnolo (solo Pro)"
+
+#~ msgid "Chinese (Pro only)"
+#~ msgstr "Cinese (solo Pro)"
+
+#~ msgid "French (Pro only)"
+#~ msgstr "Francese (solo Pro)"
+
+#~ msgid "Get Video Info"
+#~ msgstr "Informazioni Video"
+
+#~ msgid "Insert url youtube video"
+#~ msgstr "Inserisci l' url del video youtube"
+
+#~ msgid "Done"
+#~ msgstr "Fatto"
+
+#~ msgid "Get transcript"
+#~ msgstr "Ottieni trascrizione"
+
+#~ msgid "After the first month the price is"
+#~ msgstr "Dopo il primo mese il prezzo è"
+
+#~ msgid "for the first"
+#~ msgstr "per il primo"
+
+#~ msgid "After the first"
+#~ msgstr "Dopo il primo"
+
+#~ msgid "months the price is"
+#~ msgstr "mesi il prezzo è"
+
+#~ msgid "Subscription plan upgrade"
+#~ msgstr "Modifica piano di abbonamento"
+
+#~ msgid ""
+#~ "Upgrading now, for the first month you are entired to a partial refund of "
+#~ "previous monthly subscription plan"
+#~ msgstr ""
+#~ "Scegliendo un piano di abbonamento superiore, per il primo mese verrà "
+#~ "applicato uno sconto pari al credito residuo della mensilità "
+#~ "dell'abbonamento precedente"
+
+#~ msgid "Only for first month (Until"
+#~ msgstr "Solo per il primo mese (Fino al"
+
+#~ msgid "Confirm order"
+#~ msgstr "Conferma"
+
+#~ msgid "Summary"
+#~ msgstr "Riepilogo"
+
+#~ msgid "Unable to update payment data. The product license key is missing."
+#~ msgstr ""
+#~ "Impossibile aggiornare i dati di pagamento. La licenza del prodotto è "
+#~ "assente."
+
+#~ msgid "License key sent, check your email!"
+#~ msgstr "Licenza inviata, controlla l'email!"
+
+#~ msgid "Reset license key"
+#~ msgstr "Reset Licenza"
+
+#~ msgid "Valid product license. Subscription plan updated."
+#~ msgstr "Licenza del prodotto valida. Piano di abbonamento aggiornato."
+
+#~ msgid "per mounth"
+#~ msgstr "per mese"
+
+#~ msgid "An error occurred."
+#~ msgstr "Si è verificato un errore."

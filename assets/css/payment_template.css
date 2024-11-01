@@ -1,0 +1,360 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	background: transparent linear-gradient(254deg, #d500f9 0, #2962ff 99%) 0 0 no-repeat padding-box;
+	font-family: "Open Sans", sans-serif;
+	min-height: 100%;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	max-width: 1200px;
+	padding: 0 5px;
+	width: 100%;
+}
+
+.title {
+	color: #fff;
+	font-family: "Days One", sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.row {
+	align-items: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.column {
+	flex: 1 1 0;
+	margin: 7px 16px;
+}
+
+.one-quarter {
+	flex: none;
+	width: calc(100% * 1/4);
+}
+
+.paragraph-center {
+	color: #fff;
+	text-align: center;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 6px 24px rgba(0, 0, 0, 0.29);
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	position: relative;
+	transition: transform 0.2s, box-shadow 0.2s;
+	width: 100%;
+}
+
+.card:hover {
+	box-shadow: 0 8px 26px rgba(0, 0, 0, 0.25);
+	transform: scale(1.15);
+	z-index: 100;
+}
+
+.zoom {
+	box-shadow: 0 8px 26px rgba(0, 0, 0, 0.25);
+	transform: scale(1.1);
+	z-index: 99;
+}
+
+
+.card__title {
+	color: #304ffe;
+	display: inline;
+	font-family: "Days One", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 28px;
+}
+
+.card__logo {
+	float: right;
+	height: 23px;
+}
+
+.card__price {
+	align-items: center;
+	color: #a2acb2;
+	display: flex;
+	font-size: 12px;
+	justify-content: space-between;
+	letter-spacing: 0;
+	line-height: 17px;
+}
+
+
+.card__price .price {
+	color: #00112f;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 33px;
+	margin: 20px 0;
+}
+
+.card__features {
+	align-items: center;
+	color: #23282d;
+	display: flex;
+	font-size: 8px;
+	justify-content: space-between;
+	letter-spacing: 0;
+	line-height: 11px;
+	margin: 10px 0;
+}
+
+.card__features:last-of-type {
+	margin-bottom: 30px;
+}
+
+.button-choose-plan {
+	background: transparent linear-gradient(265deg, #d500f9 0, #2962ff 99%) 0 0 no-repeat padding-box;
+	border-radius: 16px;
+	color: #fff;
+	cursor: pointer;
+	font-family: "Days One", sans-serif;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 12px;
+	margin-top: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.current-plan {
+	background: #90a4ae 0 0 no-repeat padding-box;
+	border-radius: 16px;
+	color: #fff;
+	font-family: "Days One", sans-serif;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 12px;
+	margin-top: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.disable-downgrade {
+	align-items: center;
+	color: #ff1744;
+	display: flex;
+	font-family: "Open Sans Semibold", sans-serif;
+	font-size: 10px;
+	height: 37px;
+	margin-top: auto;
+	text-align: left;
+}
+
+
+.features-list {
+	color: #f9f9f9;
+	list-style: none;
+	margin: 0 140px;
+	padding: 30px 5px;
+}
+
+.features-list li {
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 17px;
+	margin: 5px 0;
+}
+
+.unsubscribe-section {
+	color: #fff;
+}
+
+.confirm-change-section {
+	width: 100%;
+}
+
+.unsubscribe-section .buttons,
+.confirm-change-section .buttons {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.unsubscribe-section .buttons .button,
+.confirm-change-section .buttons .button {
+	background: #ff0;
+	border-radius: 16px;
+	color: #00112f;
+	cursor: pointer;
+	font-family: "Days One", sans-serif;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 12px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 20%;
+}
+
+.unsubscribe-section .buttons .unsubscribe,
+.confirm-change-section .buttons .unsubscribe {
+	background: none;
+	border: 2px #ff0;
+	border-style: solid;
+	color: #ff0;
+}
+
+#message {
+	color: #fff;
+	height: 30px;
+	text-align: center;
+}
+
+.card_plan {
+	display: block;
+	margin: 0 auto;
+	height: 72px;
+}
+
+.margin_medium {
+	margin-top: 68px;
+}
+
+.old_price {
+	color: rgba(255, 255, 255, 0.6);
+	display: inline-block;
+	font-size: 45px;
+	position: relative;
+}
+
+.old_price::before {
+	--transform: skewY(-20deg);
+	-webkit-transform: skewY(-20deg);
+	border-bottom: 3px solid #ff0;
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 100%;
+}
+
+.new_price {
+	color: #ff0;
+	font-size: 56px;
+	margin-left: 16px;
+}
+
+.refund {
+	color: #ff0;
+	font-size: 24px;
+}
+
+.confirm-paragraph {
+	color: #fff;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+.arrowup {
+	margin-top: 30px;
+}
+
+.arrowup,
+.arrowdown {
+	width: 100%;
+}
+
+.container-row {
+	width: 820px;
+	display: block;
+	color: #fff;
+}
+
+.price-preview {
+	color: #ff0;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.container-row td {
+	padding-right: 20px;
+}
+
+.container-row p {
+	padding: 16px 0;
+}
+
+.tooltip {
+	background-color: #fff;
+	color: #000;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	transform: translate(5px, -65px);
+	border-radius: 8%;
+	padding: 16px;
+}
+
+.tooltip p {
+	padding: 4px 0;
+}
+
+.fas:hover + .tooltip {
+	display: inline-block;
+}
+
+@media screen and (max-width: 1023px) {
+
+	.one-quarter {
+		width: 100%;
+	}
+
+	.card,
+	.features-list {
+		max-width: 288px;
+		margin: 0 auto;
+	}
+}
+
+.padding-tp-large {
+	padding-top: 160px;
+}
+
+.thank-button {
+	background: #fff;
+	border-radius: 16px;
+	color: #2962ff;
+	cursor: pointer;
+	font-family: "Days One", sans-serif;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 12px;
+	margin-top: 35px;
+	padding: 10px;
+	text-align: center;
+	border-color: #2962ff;
+	border-style: solid;
+	outline: none;
+}

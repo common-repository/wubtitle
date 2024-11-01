@@ -1,0 +1,12 @@
+.label {
+	vertical-align: top;
+}
+
+.e2w-select-status {
+	position: absolute;
+	right: 0;
+}
+
+::cue {
+	background-color: red;
+}

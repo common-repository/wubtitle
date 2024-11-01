@@ -1,0 +1,60 @@
+.e2w-title {
+	padding: 8px 12px;
+	margin-top: 0;
+}
+
+.form-header {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	height: 30px;
+	width: auto;
+	display: inline-block;
+	margin-right: auto;
+}
+
+.input-license-key {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-license-key th {
+	padding: 16px 0 16px 0;
+}
+
+.input-license-key td {
+	padding: 0 0;
+}
+
+.postbox .notice {
+	margin: 10px;
+}
+
+.postbox .submit {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.plan-state {
+	font-weight: bold;
+}
+
+.upgrade-message {
+	display: flex;
+	align-items: center;
+}
+
+.upgrade-message .button {
+	margin: 10px;
+}
+
+.upgrade-button {
+	display: block;
+}
+
+.upgrade-button th {
+	width: auto;
+	font-weight: 400;
+}

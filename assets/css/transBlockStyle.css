@@ -1,0 +1,18 @@
+.wp-block-wubtitle-transcription .components-form-token-field__token-text {
+	background-color: #fff;
+}
+
+.wp-block-wubtitle-transcription .components-button {
+	background-color: #fff;
+	position: absolute;
+	right: 4px;
+	margin-top: 2px;
+}
+
+div[data-type="wubtitle/transcription"] .components-form-token-field__help {
+	display: none;
+}
+
+div[data-type="wubtitle/transcription"] .helperText {
+	font-style: italic;
+}
